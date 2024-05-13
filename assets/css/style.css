@@ -1,42 +1,136 @@
-* {
-    padding: 0;
+*
+{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-header *, header{
-    outline: 1px solid green;
+body
+{
+    background: lightblue;
+    display: flex;
+    justify-content: center;    
+    align-items: center;    
+    min-height: 100vh;
 }
-section.hero,
-section.hero, * {
-    outline: 1px solid red;
+.Container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
 }
-footer *, footer{
-    outline: 1px solid blue;
+.Container .left_side{
+    position : relative;
+    background: #08439b;
+    padding: 40px;
+    font-style: italic;
+    color: #fff;
 }
-nav > button{
-    
-    padding: 4px 8px;
-    font-family: cursive;
-    border:none;
+
+.profiletxt
+{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.profiletxt .imgbx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    overflow: hidden;
+    border: 7px solid #fff;
+}
+.profiletxt .imgbx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profiletxt h2
+{
+    color: #fff;
+    font-size: 1.20rem;
+    margin: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.profiletxt h2 span
+{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+.contact{
+    padding-top: 40px;
+}
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.contact ul{
+    position: relative;
+}
+.contact ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
     cursor: pointer;
 }
-header{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 10vh;
+.contact ul li span{
+    color: #fff;
+    font-weight: 300;
 }
-.hero{
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0 2rem;
-    gap: 8px;
-}
-
+.Educ li{
+    margin-bottom: 15px;
 
 }
-footer{
-    padding: 2px 8px;
+.Educ h5{
+    color: aqua;
+    font-weight: 500;
+}
+.Educ h4{
+    color:#fff;
+    fobt-weight: 500;
+}
+.Language h5{
+    color: aqua;
+    font-weight: 500;
+}
+.Container .right_side{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 50px;
+}
+.about:last-child{
+    margin-bottom: 0;
+}
+.title2{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p{
+    color: #333;
 }
