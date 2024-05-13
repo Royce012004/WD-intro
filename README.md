@@ -74,7 +74,7 @@ Guiding Question:
 3. File Structure to follow
 
 ```
-WD-ProjectName
+WD-intro
 └─ assets
 |   └─ css
 |   |   └─ style.css
