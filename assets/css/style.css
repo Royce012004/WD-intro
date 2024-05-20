@@ -1,150 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
 *{
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+body{
+    background-color: rgb(26, 6, 62);
+    color: white;
+}
+.head{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color:rgb(57, 93, 203);
+    justify-content: space-between;
+    align-items: center;
     display: flex;
-    justify-content: center;
-    align-items: left;
-    border-style: groove;
-    background-color: #333;
+    z-index: 100;
 }
-.header{
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-    justify-content: flex
-    margin-right: 0px;
-}
-.header h3{
-    font-size: 30px;
-    padding: 0px;
-    margin-left: 5px;
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
 }
-.header h3:hover{
-    position: relative;
-    color: aqua;
-    transition: 1s;
-}
-.header ul{
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
-    list-style-type: none;
-    padding: 3px;
-}
-.header li:hover{
-    position: relative;
-    color: aqua;
-    transition: 1s;
-}
-.header h1{
-    font-size: 100px;
-    display: center;
-    margin: 0 20px;
-    padding: 5px;
+.bar a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin : 35px;
+    text-decoration: none;
+    transition: .4s;
     font-family: 'Times New Roman', Times, serif;
 }
-.header h1:hover{
-    position: relative;
-    color: aqua;
-    transition: 1s;
+.bar a:hover,
+.bar a.Active{
+    color: rgb(43, 7, 87);
 }
-.header h2{
-    font-size: 50px;
-    display: center;
-    padding: 10px;
-    margin-left: 50px;
-    font-family: 'Times New Roman', Times, serif;
+.Home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    
 }
-.header h2:hover{
-    position: relative;
-    color: aqua;
-    transition: 1s;
-}
-.header img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    padding: 10px;
-    justify-content: flex;
-    align-items: left;
-    display: center;
-    margin: 10px;
-    border-color: white;
+.Home img{
+    width: 500px;
+    height: 500px;
+border-radius: 50%;
+display: flex;
+justify-content: flex-end;
 }
 .content{
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-    padding: 20px;
-    margin: 2px 0px;
-    background-color: #333;  
+    max-width: 600px;
 }
-.content h3{
+.content h1{
     font-size: 60px;
-    color: #fff;
-    align-items:center;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    line-height: 1.2;
 }
-.content h3:hover{
-    position: relative;
-    color: aqua;
-    transition: 2s;
+.content h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: royalblue;
 }
 .content p{
     font-size: 20px;
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    color: white;
+    margin: 20px 0 40px;
+    
+}   
+.Home .button{
+    width: 345px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
 }
-.content p:hover{
+.button a{
+    width: 150px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: navy;
+    border: 2px navyblue;
+    border-radius: 8px;
+    display: inline-flex;
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
     position: relative;
-    color: aqua;
-    transition: 2s;
 }
-.content ul{
-    font-size:  30px;
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
-    list-style-type: none;
-}
-.content li:hover{
-    position: relative;
-    color: aqua;
-    transition: 2s;
-}
-.footer{
-    background-color: #333;
-    color: #fff;
-    text-align: left;
-    padding: 10px 0;
-    justify-content: flex;
-    margin-right:20px 0px;
-    border-style: groove;
-}
-.footer h3{
-    font-size: 25px;
-    padding: 0px;
-    margin-left: 5px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.footer ul{
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Times New Roman', Times, serif;
-    list-style-type: none;
-}
-.footer li:hover{
-    position: relative;
-    color: aqua;
-    transition: 2s;
-}
-.footer h3:hover{
-    position: relative;
-    color: aqua;
-    transition: 2s;
+.button a:hover{
+    background-color: rgb(106, 47, 179);
+    color: white;
+    transition: .3s;
+
 }
