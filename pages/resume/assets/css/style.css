@@ -7,14 +7,16 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image:url(https://www.finduniversity.ph/_resources/business/8144/feu-820.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
 .resume {
-    background: #fff;
+    background: #346541;
     padding: 20px;
     margin: 20px;
     border-radius: 8px;
@@ -28,6 +30,7 @@ header {
     border-bottom: 2px solid #eee;
     margin-bottom: 10px;
     padding-bottom: 0px;
+    color: white;
 }
 header img {
     width: 100px;
@@ -38,59 +41,77 @@ header img {
 header h1 {
     margin: 0;
     font-size: 2em;
+    color: white;
 }
 
 header p {
     margin: 5px 0;
     font-size: 1em;
-    color: #555;
+    color: #ffffff;
 }
 
 section {
     margin-bottom: 20px;
+}
+.contact:hover {
+   background-color: grey;
+   transition: 3s;
 }
 .contact ul{
     display: flex;
     flex-direction: column;
     padding-left: 0;
    list-style-type: none;
+   color: white;
 }
 
 section h2 {
     border-bottom: 2px solid #eee;
     padding-bottom: 5px;
     margin-bottom: 10px;
-    color: #333;
+    color: white;
 }
+.job:hover {
+    background-color: grey;
+    transition: 3s;
+ }
 
 .job {
     margin-bottom: 15px;
+    color: white;
 }
 
 .job h3 {
     margin: 0;
     font-size: 1.2em;
+    color: white;
 }
 
 .job p {
     margin: 5px 0;
-    color: #555;
+    color: white;
 }
 
 .job ul {
     margin: 0;
     padding-left: 20px;
+    color: white;
 }
 
 .job ul li {
     list-style-type: disc;
     margin-bottom: 5px;
+    color: white;
 }
-
+.skills:hover {
+    background-color: grey;
+    transition: 3s;
+ }
 .skills ul {
     display: flex;
     flex-wrap: wrap;
     padding-left: 0;
+    color: white;
 }
 
 .skills ul li {
@@ -99,8 +120,17 @@ section h2 {
     margin: 5px;
     padding: 10px;
     border-radius: 4px;
+    color: white;
 }
 .skills ul li:hover {
     background: #c7be10;
     transition: 1s;
+}
+.education{
+    margin-bottom: 15px;
+    color: white;
+}
+.education:hover {
+    background-color: grey;
+    transition: 3s;
 }
