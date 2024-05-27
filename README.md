@@ -10,7 +10,7 @@
   <h3 align="center">WD Seatwork 2: TW04</h3>
 </div>
 <div align="center">
-  This project is created to demonstrate understading of Fundamentals in Web.
+  This project is created to demonstrate an understanding of the Fundamentals of the Web.
 </div>
 
 <br />
@@ -48,16 +48,8 @@
 ---
 
 ## Overview
-
-<!-- TODO: To be changed -->
-<!-- The following are just sample -->
-Description of the project in details.
-
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This repository contains my portfolio and resume, showcasing my achievements over time. The project aims to provide a comprehensive view of my accomplishments. 
+It is developed using HTML for the content and CSS for the overall design of the website.
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -70,33 +62,6 @@ Guiding Question:
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-## Rules and Principles
-1. Always use ***WD-*** in the front of the Title of the Project for the Subject followed by your custom naming.
-2. Do not rename any .html files; always use 'index.html' as the filename.
-3. File Structure to follow
-
-```
-WD-intro
-└─ assets
-|   └─ css
-|   |   └─ style.css
-|   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
-└─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
-└─ index.html
-└─ readme.md
-```
 
 ## Resources
 
