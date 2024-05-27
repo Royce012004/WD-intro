@@ -1,138 +1,136 @@
-*{
+* {
+    box-sizing: border-box;
+    margin: 0%;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-.container{
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
-    align-items: left;
-    border-style: groove;
-    background-color: #333;
+    align-items: center;
+    background-image:url(https://www.finduniversity.ph/_resources/business/8144/feu-820.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.header{
-    background-color: #009900;
-    color: #ffc20e;
-    padding: 10px 0;
-    text-align: center;
-    justify-content: flex
-}
-.header h3{
-    font-size: 30px;
-    padding: 0px;
-    margin-left: 5px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.header h3:hover{
-    position: relative;
-    color: #818181;
-    transition: 1s;
-}
-.header ul{
-    font-size: 20px;
-    color: #ffc20e;
-    font-family: 'Times New Roman', Times, serif;
-    list-style-type: none;
-    padding: 3px;
-}
-.header li:hover{
-    position: relative;
-    color: #818181;
-    transition: 1s;
-}
-.header h1{
-    font-size: 100px;
-    display: center;
-    margin: 0 20px;
-    padding: 5px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.header h1:hover{
-    position: relative;
-    color: #818181;
-    transition: 1s;
-}
-.header h2{
-    font-size: 50px;
-    display: center;
-    padding: 10px;
-    margin-left: 50px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.header h2:hover{
-    position: relative;
-    color: #818181;
-    transition: 1s;
-}
-.header img{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    padding: 10px;
-    justify-content: flex;
-    align-items: left;
-    display: center;
-    margin: 10px;
-    border-color: white;
-}
-.content{
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
+.resume {
+    background: #346541;
     padding: 20px;
-    margin: 0px 0px;
-    background-color: #ffc20e;  
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
 }
-.content h3{
-    font-size: 60px;
-    color: #009900;
-    align-items:center;
-    font-family: 'Times New Roman', Times, serif;
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+    color: white;
 }
-.content h3:hover{
-    position: relative;
-    color: #818181;
-    transition: 2s;
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
 }
-.content p{
-    font-size: 20px;
-    color: #009900;
-    font-family: 'Times New Roman', Times, serif;
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: white;
 }
-.content p:hover{
-    position: relative;
-    color: #818181;
-    transition: 2s;
+
+header p {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #ffffff;
 }
-.content ul{
-    font-size:  30px;
-    color: #009900;
-    font-family: 'Times New Roman', Times, serif;
+
+section {
+    margin-bottom: 20px;
+}
+.contact:hover {
+   background-color: grey;
+   transition: 3s;
+}
+.contact ul{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+   list-style-type: none;
+   color: white;
+}
+
+section h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+.job:hover {
+    background-color: grey;
+    transition: 3s;
+ }
+
+.job {
+    margin-bottom: 15px;
+    color: white;
+}
+
+.job h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: white;
+}
+
+.job p {
+    margin: 5px 0;
+    color: white;
+}
+
+.job ul {
+    margin: 0;
+    padding-left: 20px;
+    color: white;
+}
+
+.job ul li {
+    list-style-type: disc;
+    margin-bottom: 5px;
+    color: white;
+}
+.skills:hover {
+    background-color: grey;
+    transition: 3s;
+ }
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    color: white;
+}
+
+.skills ul li {
     list-style-type: none;
+    background: #38b216;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    color: white;
 }
-.content li:hover{
-    position: relative;
-    color: #818181;
-    transition: 2s;
+.skills ul li:hover {
+    background: #c7be10;
+    transition: 1s;
 }
-.footer{
-    background-color: #818181;
-    color: #fff;
-    text-align: left;
-    padding: 10px 0;
-    justify-content: flex;
-    margin-right:20px 0px;
-    border-style: groove;
+.education{
+    margin-bottom: 15px;
+    color: white;
 }
-.footer h3{
-    font-size: 25px;
-    padding: 0px;
-    margin-left: 5px;
-    font-family: 'Times New Roman', Times, serif;
-}
-.footer h3:hover{
-    position: relative;
-    color: #009900;
-    transition: 2s;
+.education:hover {
+    background-color: grey;
+    transition: 3s;
 }
